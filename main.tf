@@ -5,13 +5,13 @@ resource "spotify_playlist" "kalki-playlist" {
 }
 
 data "spotify_search_track" "ariana_grande" {
-  artist = "Thaman"
+  artist = "Eminem"
 }
 
 resource "spotify_playlist" "demo" {
     name = "test"
-    tracks = [data.spotify_search_track.Thaman.tracks[0].id,
-    data.spotify_search_track.Thaman.tracks[1].id,
-    data.spotify_search_track.Thaman.tracks[4].id]
+    tracks = [data.spotify_search_track.Eminem.tracks[0].id,
+    data.spotify_search_track.Eminem.tracks[1].id,
+    data.spotify_search_track.Eminem.tracks[4].id]
    
 }
