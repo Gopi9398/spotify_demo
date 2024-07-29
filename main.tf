@@ -5,7 +5,7 @@ resource "spotify_playlist" "kalki-playlist" {
 }
 
 data "spotify_search_track" "Eminem" {
-  artist = "Eminem"
+  artist = "Thaman S"
 }
 
 resource "spotify_playlist" "demo" {
