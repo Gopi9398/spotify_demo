@@ -4,7 +4,7 @@ resource "spotify_playlist" "kalki-playlist" {
   tracks = ["3z8DnKyVl4TVZHT2KOHHpw"]
 }
 
-data "spotify_search_track" "ariana_grande" {
+data "spotify_search_track" "Eminem" {
   artist = "Eminem"
 }
 
